@@ -17,6 +17,11 @@
         <module>spring-cloud-contract/spring-cloud-contract-sample</module>
         <module>spring-kafka</module>
         <module>spring-transaction-1.5-pc</module>
+        <module>kafka-poller</module>
+        <module>startup-error-couchbase</module>
+        <module>redis-demo</module>
+        <module>spring-boot-distributed-transaction</module>
+        <module>spring-boot-amqp</module>
 
     </modules>
 </project>
