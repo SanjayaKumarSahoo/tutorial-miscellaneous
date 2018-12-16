@@ -1,0 +1,5 @@
+server:
+  host: localhost
+  servlet:
+    context-path: /v2
+  port: 8080
