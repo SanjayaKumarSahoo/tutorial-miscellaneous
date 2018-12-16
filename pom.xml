@@ -12,5 +12,6 @@
     <modules>
         <module>spring-kafka</module>
         <module>k8s-learn</module>
+        <module>custom-property</module>
     </modules>
 </project>
