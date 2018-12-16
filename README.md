@@ -1,2 +1,2 @@
-# tutorial-miscellaneous-spring-boot
+# tutorial-miscellaneous
 All tutorial samples
