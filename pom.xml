@@ -10,8 +10,13 @@
 
 
     <modules>
-        <module>spring-kafka</module>
-        <module>k8s-learn</module>
         <module>custom-property</module>
+        <module>k8s-learn</module>
+        <module>spring-boot-docker</module>
+        <module>spring-boot-elastic-search</module>
+        <module>spring-cloud-contract/spring-cloud-contract-sample</module>
+        <module>spring-kafka</module>
+        <module>spring-transaction-1.5-pc</module>
+
     </modules>
 </project>
