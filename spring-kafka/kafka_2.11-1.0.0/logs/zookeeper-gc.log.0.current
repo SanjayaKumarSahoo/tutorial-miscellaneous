@@ -1,0 +1,33 @@
+Java HotSpot(TM) 64-Bit Server VM (25.131-b11) for bsd-amd64 JRE (1.8.0_131-b11), built on Mar 15 2017 01:32:22 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(636032k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:+ExplicitGCInvokesConcurrent -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=536870912 -XX:InitiatingHeapOccupancyPercent=35 -XX:+ManagementServer -XX:MaxGCPauseMillis=20 -XX:MaxHeapSize=536870912 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation 
+2018-11-16T14:33:04.938-0530: 1774.513: [GC pause (G1 Evacuation Pause) (young), 0.0059627 secs]
+   [Parallel Time: 3.7 ms, GC Workers: 8]
+      [GC Worker Start (ms): Min: 1774512.8, Avg: 1774512.9, Max: 1774512.9, Diff: 0.2]
+      [Ext Root Scanning (ms): Min: 0.3, Avg: 0.5, Max: 1.7, Diff: 1.4, Sum: 4.3]
+      [Update RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Processed Buffers: Min: 0, Avg: 0.0, Max: 0, Diff: 0, Sum: 0]
+      [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.2, Max: 0.8, Diff: 0.8, Sum: 1.7]
+      [Object Copy (ms): Min: 1.7, Avg: 2.6, Max: 3.0, Diff: 1.3, Sum: 21.0]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.2]
+         [Termination Attempts: Min: 1, Avg: 25.5, Max: 33, Diff: 32, Sum: 204]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.2]
+      [GC Worker Total (ms): Min: 3.3, Avg: 3.4, Max: 3.5, Diff: 0.2, Sum: 27.4]
+      [GC Worker End (ms): Min: 1774516.3, Avg: 1774516.3, Max: 1774516.3, Diff: 0.0]
+   [Code Root Fixup: 0.3 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 1.8 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 1.3 ms]
+      [Ref Enq: 0.0 ms]
+      [Redirty Cards: 0.1 ms]
+      [Humongous Register: 0.1 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.1 ms]
+   [Eden: 25.0M(25.0M)->0.0B(21.0M) Survivors: 0.0B->4096.0K Heap: 25.0M(512.0M)->3663.3K(512.0M)]
+ [Times: user=0.03 sys=0.01, real=0.01 secs] 
